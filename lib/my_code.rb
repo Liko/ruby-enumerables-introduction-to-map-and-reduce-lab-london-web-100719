@@ -24,3 +24,4 @@ def map_to_square(array)
     newArray.push(array[i]**2)
   end
 end 
+
