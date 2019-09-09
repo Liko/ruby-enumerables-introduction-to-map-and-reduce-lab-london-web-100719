@@ -49,5 +49,10 @@ end
 def reduce_to_any_true(array)
   
   array.length.times do |i|
-    if 
+    if array[i]
+      return true
+    end
+  end 
+  return false 
+end 
     
