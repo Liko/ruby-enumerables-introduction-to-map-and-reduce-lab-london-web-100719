@@ -27,9 +27,7 @@ def map_to_square(array)
   newArray
 end 
 
-def reduce_to_total(array, start)
-  
-  start = 0
+def reduce_to_total(array, start = 0)
   
   array.length.times do |i|
     start += array[i]
