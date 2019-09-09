@@ -40,7 +40,7 @@ def reduce_to_all_true(array)
   
   array.length.times do |i|
     if (array[i] != true)
-      return false
+      return array[i]
     end
   end
   return true
