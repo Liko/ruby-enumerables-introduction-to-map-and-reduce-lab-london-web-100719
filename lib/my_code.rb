@@ -4,4 +4,5 @@ def map_to_negativize(array, start)
   array.length.times do |i|
     newArray.push(array[i]*-1)
   end
+  newArray
 end 
