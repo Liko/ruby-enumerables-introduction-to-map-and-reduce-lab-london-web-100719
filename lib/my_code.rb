@@ -27,7 +27,7 @@ def map_to_square(array)
   newArray
 end 
 
-def reduce_to_total(array)
+def reduce_to_total(array, start)
   
   start = 0
   
