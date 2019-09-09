@@ -6,3 +6,7 @@ def map_to_negativize(array)
   end
   newArray
 end 
+
+def map_to_no_change(array)
+  array
+end 
