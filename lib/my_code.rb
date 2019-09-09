@@ -10,3 +10,10 @@ end
 def map_to_no_change(array)
   array
 end 
+
+def map_to_double(array)
+  newArray = []
+  array.length.times do |i|
+    newArray.push(array[i]*2)
+  end
+end 
