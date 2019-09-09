@@ -17,3 +17,10 @@ def map_to_double(array)
     newArray.push(array[i]*2)
   end
 end 
+
+def map_to_square(array)
+  newArray = []
+  array.length.times do |i|
+    newArray.push(array[i]**2)
+  end
+end 
